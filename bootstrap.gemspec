@@ -1,10 +1,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bootstrap/version'
+require 'bootstrap4/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'bootstrap'
-  s.version  = Bootstrap::VERSION
+  s.name     = 'bootstrap4'
+  s.version  = Bootstrap4::VERSION
   s.authors  = ['Twitter, Inc.']
   s.email    = 'glex.spb@gmail.com'
   s.summary  = 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. http://getbootstrap.com'

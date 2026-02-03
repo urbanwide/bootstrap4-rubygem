@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require 'bootstrap/version'
+require 'bootstrap4/version'
 require 'popper_js'
 
-module Bootstrap
+module Bootstrap4
   class << self
     # Inspired by Kaminari
     def load!
@@ -72,4 +72,4 @@ module Bootstrap
   end
 end
 
-Bootstrap.load!
+Bootstrap4.load!
