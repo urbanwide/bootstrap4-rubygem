@@ -58,7 +58,7 @@ module Bootstrap4
     private
 
     def register_rails_engine
-      require 'bootstrap/engine'
+      require 'bootstrap4/engine'
     end
 
     def register_sprockets
