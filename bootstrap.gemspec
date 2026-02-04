@@ -14,7 +14,10 @@ Gem::Specification.new do |s|
   # SassC requires Ruby 2.3.3. Also specify here to make it obvious.
   s.required_ruby_version = '>= 2.3.3'
 
-  s.add_runtime_dependency 'popper_js', '>= 1.16.1', '< 2'
+  # Removed as conflicts with dependency with bootstrap 5 (bootstrap >= 5.3.0.alpha3 requires popper_js >= 2.11.7, < 3)
+  # Vendoring in here instead taken from:
+  # https://github.com/floating-ui/floating-ui/blob/v1.16.1/dist/popper.min.js
+  # s.add_runtime_dependency 'popper_js', '>= 1.16.1', '< 2'
   s.add_runtime_dependency 'autoprefixer-rails', '>= 9.1.0'
 
   # Testing dependencies
